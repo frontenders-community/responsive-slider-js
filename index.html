@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Slider</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <div id="app">
+    <div class="slider-container">
+      <section class="slider">
+        <div class="slide">
+          <div class="image"></div>
+          <div class="detail"></div>
+        </div>
+        <div class="slide">
+          <div class="image"></div>
+          <div class="detail"></div>
+        </div>
+        <div class="slide">
+          <div class="image"></div>
+          <div class="detail"></div>
+        </div>
+      </section>
+      <div class="slider-control">
+        <div class="control-left">
+          <span class="counter" id="counterProgress">01</span>
+          <div class="all"><span class="complete"></span></div>
+          <span class="counter" id="counterTotal">05</span>
+        </div>
+        <div class="control-right">
+          <i class="fa-solid fa-chevron-left" id="prevSlide"></i>
+          <i class="fa-solid fa-chevron-right" id="nextSlide"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
